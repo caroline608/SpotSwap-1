@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyr-M0-Xbb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="43iosgroup6logo" translatesAutoresizingMaskIntoConstraints="NO" id="CXk-OV-84s">
+                                        <rect key="frame" x="-0.5" y="267" width="375" height="133"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Alphabits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZK-ez-ryY">
+                                        <rect key="frame" x="-0.5" y="429" width="375" height="20"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6701288015087199" blue="0.24231699960977815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="CXk-OV-84s" firstAttribute="centerY" secondItem="Cyr-M0-Xbb" secondAttribute="centerY" id="5xQ-2M-8U4"/>
+                                    <constraint firstItem="iZK-ez-ryY" firstAttribute="centerX" secondItem="Cyr-M0-Xbb" secondAttribute="centerX" id="Gus-hx-LRm"/>
+                                    <constraint firstItem="CXk-OV-84s" firstAttribute="width" secondItem="Cyr-M0-Xbb" secondAttribute="width" id="SCr-5L-4rl"/>
+                                    <constraint firstItem="CXk-OV-84s" firstAttribute="centerX" secondItem="Cyr-M0-Xbb" secondAttribute="centerX" id="SFJ-T0-5TH"/>
+                                    <constraint firstItem="iZK-ez-ryY" firstAttribute="width" secondItem="Cyr-M0-Xbb" secondAttribute="width" id="bdW-Op-0n1"/>
+                                    <constraint firstItem="CXk-OV-84s" firstAttribute="height" secondItem="Cyr-M0-Xbb" secondAttribute="height" multiplier="0.2" id="tdb-FU-XDJ"/>
+                                    <constraint firstItem="iZK-ez-ryY" firstAttribute="top" secondItem="CXk-OV-84s" secondAttribute="bottom" constant="29" id="uwh-Dz-AVs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cyr-M0-Xbb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4pZ-pw-mzs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cyr-M0-Xbb" secondAttribute="bottom" id="a8h-Ln-xOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cyr-M0-Xbb" secondAttribute="trailing" id="noY-w5-Vgh"/>
+                            <constraint firstItem="Cyr-M0-Xbb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vy3-kU-txL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="43iosgroup6logo" width="576" height="288"/>
+    </resources>
+</document>

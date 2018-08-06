@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>704300783564-rrfqh1gfdvr5ljmh5o5ihuofkkhg85oo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.704300783564-rrfqh1gfdvr5ljmh5o5ihuofkkhg85oo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmCS_fOTHIcjV_wEwXvi8uGuccPFMPaYA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>704300783564</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AlphaBits.SpotSwap</string>
+	<key>PROJECT_ID</key>
+	<string>spotswap-fe673</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotswap-fe673.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:704300783564:ios:dc793ffd51403360</string>
+	<key>DATABASE_URL</key>
+	<string>https://spotswap-fe673.firebaseio.com</string>
+</dict>
+</plist>
